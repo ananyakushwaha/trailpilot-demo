@@ -1,0 +1,12 @@
+export const FAQS = [
+  { category: "Getting started", question: "How do I add a new lead?", answer: "Open Leads, choose Add lead, enter the customer details and select the lead source. You can assign the lead to a sales team member and set a follow-up date." },
+  { category: "Getting started", question: "How do I create a booking?", answer: "Convert a won lead into a booking, or open Bookings and choose New booking. Add the customer, destination, travel dates, package amount and payment details." },
+  { category: "Messaging", question: "How do I connect WhatsApp?", answer: "Open Agency Settings, enter the business WhatsApp Cloud API access token and phone number ID, then save. WhatsApp automation also requires an active Premium plan." },
+  { category: "Messaging", question: "Can I send automatic customer messages?", answer: "Yes. TrailPilot can send booking confirmation, payment reminder and trip follow-up messages. Message templates and the Powered by TrailPilot footer can be managed from Agency Settings." },
+  { category: "Reports", question: "Can I download reports in Excel?", answer: "Use the Excel buttons on the Dashboard, Leads, Customers or Bookings screens. The downloaded CSV file opens directly in Microsoft Excel or Google Sheets." },
+  { category: "Reports", question: "Can I print an itinerary or invoice?", answer: "Open the itinerary or booking document and choose Print. From the browser print window you can save it as a PDF or send it to a printer." },
+  { category: "Billing", question: "How do I upgrade to Premium?", answer: "Open Upgrade to Premium and choose Upgrade securely. Complete the Razorpay checkout. The plan changes to Premium after the payment signature is verified." },
+  { category: "Billing", question: "What can the product owner control?", answer: "A Super Admin can open Product Control Panel to lock or unlock services, unlock all features, and grant or remove Premium access for a business." },
+  { category: "Accounts", question: "How do I add team members?", answer: "Open Agency Settings and use the team management area. Choose the correct role so each team member sees only the screens needed for their work." },
+  { category: "Accounts", question: "Where do I add owner contact details?", answer: "Open Agency Settings to update the business name, owner contact details, logo, email settings, WhatsApp settings and review link." },
+] as const;
